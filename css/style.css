@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+}
+nav.navbar{
+	background: #999;
+	min-height: 60px;
+	border-radius: 0;
+	margin: 0;
+	border: :none;
+}
+.navbar-header .navbar-brand{
+	color: #000;
+	font-size: 1.5em;
+	line-height: 60px;
+	padding: 0;
+	padding-left: 20px;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	color: #000;
+	background: #000;
+}
+.navbar-default .navbar-toggle{
+	border-color: #000;
+}
+.navbar-collapse .navbar-nav li a{
+	text-align: center;
+	color: #000;
+	font-size: 1.1em;
+}
+.navbar-collapse .navbar-nav li a:hover{
+	background-color: #ccc;
+}
+#blocks_section{
+	margin-top: 30px;
+}
+#blocks_section div{text-align: center;}
+.content_block{
+	width: 100%;
+	background: #999;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+.content_block h3{
+	margin-top: 0;
+}
